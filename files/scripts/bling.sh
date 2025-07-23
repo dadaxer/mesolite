@@ -6,8 +6,10 @@
 set -oue pipefail
 
 # Your code goes here.
-echo 'Removing karl...'
+echo 'Removing Karl...'
 
 rm /usr/share/ublue-os/bluefin-logos/karl.png
 rm /usr/share/ublue-os/bluefin-logos/symbols/karl
 rm /usr/share/ublue-os/bluefin-logos/sixels/karl
+
+echo 'Karl removed'
