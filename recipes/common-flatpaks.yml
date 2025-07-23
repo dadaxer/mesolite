@@ -1,0 +1,23 @@
+type: default-flatpaks
+notify: true # Send notification after install/uninstall is finished (true/false)
+system:
+  # If no repo information is specified, Flathub will be used by default
+  install:
+    - app.zen_browser.zen
+    - com.bitwarden.desktop
+    - com.discordapp.Discord
+    - com.github.tchx84.Flatseal
+    - com.mattjakeman.ExtensionManager
+    - com.rtosta.zapzap
+    - com.synology.SynologyDrive
+    - com.vivaldi.Vivaldi
+    - dev.zed.Zed
+    - io.github.flattool.Warehouse
+    - org.gnome.Loupe
+    - org.gnome.Papers
+    - org.gnome.World.PikaBackup
+    - org.mozilla.firefox
+    - org.telegram.desktop
+  remove:
+    - com.valvesoftware.Steam
+user: {} # Also add Flathub user repo, but no user packages
