@@ -31,7 +31,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+At the moment there is no ISO for Mesolite, maybe in the future. Rebasing from Fedora Silverblue or [Bluefin](https://projectbluefin.io/) is recommended.
 
 ## Verification
 
