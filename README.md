@@ -8,7 +8,7 @@ Main changes are native Steam (with Mangohud) and some minor changes to fit my n
 > [!WARNING]
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
-To rebase an existing atomic [Fedora](https://fedoraproject.org/atomic-desktops/silverblue/) or [Bluefin](https://projectbluefin.io/) installation to the latest build:
+To rebase an existing atomic [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/) or [Bluefin](https://projectbluefin.io/) installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
