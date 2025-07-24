@@ -28,7 +28,6 @@ modules:
       auto-remove: true
       packages:
         - gnome-tweaks
-        - code
     install:
       packages:
         - blender
