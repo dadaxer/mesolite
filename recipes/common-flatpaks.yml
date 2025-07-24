@@ -11,6 +11,7 @@ system:
     - org.gnome.Papers
     - org.gnome.World.PikaBackup
     - org.mozilla.firefox
+    - page.tesk.Refine
   remove:
     - com.valvesoftware.Steam
 user: {} # Also add Flathub user repo, but no user packages

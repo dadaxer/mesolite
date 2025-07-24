@@ -27,12 +27,14 @@ modules:
     remove:
       auto-remove: true
       packages:
+        - gnome-tweaks
         - code
     install:
       packages:
         - blender
-        - steam
+        - input-remapper
         - mangohud
+        - steam
 
   - from-file: common-flatpaks.yml
 
