@@ -1,6 +1,6 @@
 # Mesolite build with BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-Mesolite is a [Bluefin](https://projectbluefin.io/) based variant with some customisations.
+Mesolite is a [Bluefin-DX](https://projectbluefin.io/) based variant with some customisations.
 Main changes are native Steam (with Mangohud) and some minor changes to fit my needs.
 
 ## Installation
