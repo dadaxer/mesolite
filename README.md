@@ -3,8 +3,6 @@
 Mesolite is a [Bluefin](https://projectbluefin.io/) based variant with some customisations.
 Main changes are native Steam (with Mangohud) and some minor changes to fit my needs.
 
-After setup, it is recommended you update this README to describe your custom image.
-
 ## Installation
 
 > [!WARNING]
