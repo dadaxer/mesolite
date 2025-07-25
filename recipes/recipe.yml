@@ -11,6 +11,12 @@ image-version: stable # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: os-release
+    properties:
+      ID: mesolite
+      NAME: Mesolite
+      PRETTY_NAME: Mesolite Image
+
   - type: files
     files:
       - source: system
@@ -20,6 +26,7 @@ modules:
   - type: script
     scripts:
       - bling.sh
+      - fixes.sh
 
   - type: dnf
     repos:
@@ -37,5 +44,6 @@ modules:
         - steam
 
   - from-file: flatpaks.yml
+  - from-file: gnome-extensions.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
