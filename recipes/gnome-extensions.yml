@@ -1,15 +1,12 @@
 type: gnome-extensions
 install:
-  install:
-    - Bluetooth Battery Meter
-    - Control monitor brightness and volume with ddcutil
-    - Notification Configurator
-    - RunCat
-    - Tiling Shell
-  uninstall:
-    - Apps Menu
-    - Launch New Instance
-    - Places Status Indicator
-    - Smart Auto Move
-    - Tailscale QS
-    - Window List
+  - Bluetooth Battery Meter
+  - Control monitor brightness and volume with ddcutil
+  - Notification Configurator
+  - RunCat
+  - Tiling Shell
+uninstall:
+  - Apps Menu
+  - Launch new instance
+  - Places Status Indicator
+  - Tailscale QS
