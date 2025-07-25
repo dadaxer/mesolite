@@ -3,7 +3,7 @@
 Mesolite is a [Bluefin-DX](https://projectbluefin.io/) based variant with some customisations.
 Main changes are native Steam (with Mangohud) and some minor changes to fit my needs.
 
-## Installed Packages
+### Installed Packages
 
 The following packages are installed in the Mesolite image based on the `recipe.yml`:
 
