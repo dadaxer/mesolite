@@ -3,6 +3,16 @@
 Mesolite is a [Bluefin-DX](https://projectbluefin.io/) based variant with some customisations.
 Main changes are native Steam (with Mangohud) and some minor changes to fit my needs.
 
+## Installed Packages
+
+The following packages are installed in the Mesolite image based on the `recipe.yml`:
+
+- **Blender**: A free and open-source 3D computer graphics software toolset used for creating animated films or video games.
+- **Godot**: An open-source, cross-platform game engine to create your own games using pure code (GDScript, similar to Python), C#, visual script, or visual style node-based programming.
+- **Input Remapper**: A tool for remapping input devices in Linux. It allows you to change the key combinations and button actions of your keyboard, mouse, and other input devices.
+- **Mangohud**: A compatibility layer that makes it easy to run Windows games with high-performance graphics in Wine on Linux without losing functionality or performance.
+- **Steam**: The popular digital distribution platform for video games developed by Valve Corporation.
+
 ## Installation
 
 > [!WARNING]
