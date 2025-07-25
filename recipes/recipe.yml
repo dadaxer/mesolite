@@ -16,6 +16,9 @@ modules:
       ID: mesolite
       NAME: Mesolite
       PRETTY_NAME: Mesolite Image
+      VARIANT_ID: mesolite-gx
+      IMAGE_ID: mesolite-gx
+      RELEASE_TYPE: latest
 
   - type: files
     files:
@@ -35,6 +38,7 @@ modules:
       auto-remove: true
       packages:
         - gnome-tweaks
+        - tailscale
     install:
       packages:
         - blender
