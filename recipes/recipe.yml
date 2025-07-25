@@ -31,10 +31,11 @@ modules:
     install:
       packages:
         - blender
+        - godot
         - input-remapper
         - mangohud
         - steam
 
-  - from-file: common-flatpaks.yml
+  - from-file: flatpaks.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
