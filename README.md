@@ -6,15 +6,13 @@ Main changes are native Steam (with Mangohud) and some minor changes to fit my n
 ### Installed Packages
 
 #### Native Packages
-
-- blender
-- godot
-- input-remapper
-- mangohud
-- steam
+- Blender
+- Godot
+- Input Remapper
+- Mangohud
+- Steam
 
 #### Flatpak Packages
-
 - com.github.tchx84.Flatseal
 - com.mattjakeman.ExtensionManager
 - io.github.flattool.Warehouse
