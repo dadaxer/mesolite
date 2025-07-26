@@ -19,4 +19,6 @@ configurations:
   - scope: user
     repo:
       title: Flathub (user)
+    install:
+      - hu.irl.cameractrls
 # user: {} # Also add Flathub user repo, but no user packages
