@@ -1,14 +1,20 @@
 type: default-flatpaks
-notify: true # Send notification after install/uninstall is finished (true/false)
-system:
-  # If no repo information is specified, Flathub will be used by default
-  install:
-    - com.github.tchx84.Flatseal
-    - com.mattjakeman.ExtensionManager
-    - io.github.flattool.Warehouse
-    - org.gnome.Loupe
-    - org.gnome.Papers
-    - page.tesk.Refine
-  remove:
-    - com.valvesoftware.Steam
-user: {} # Also add Flathub user repo, but no user packages
+configurations:
+  - notify: true
+    scope: system
+    repo:
+      title: Flathub (system)
+    # If no repo information is specified, Flathub will be used by default
+    install:
+      - com.github.tchx84.Flatseal
+      - com.mattjakeman.ExtensionManager
+      - io.github.flattool.Warehouse
+      - org.gnome.Loupe
+      - org.gnome.Papers
+      - page.tesk.Refine
+    remove:
+      - com.valvesoftware.Steam
+  - scope: user
+    repo:
+      title: Flathub (user)
+# user: {} # Also add Flathub user repo, but no user packages
