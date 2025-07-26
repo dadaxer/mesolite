@@ -30,6 +30,7 @@ modules:
     scripts:
       - bling.sh
       - fixes.sh
+      - netbird.sh
 
   - type: dnf
     repos:
