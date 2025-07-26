@@ -1,6 +1,7 @@
 [org.gnome.shell]
-favorite-apps = ['com.fyralabs.Readymade.desktop', 'org.mozilla.firefox.desktop', 'org.mozilla.Thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Software.desktop', 'code.desktop']
+favorite-apps = ['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'org.mozilla.Thunderbird.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Software.desktop', 'code.desktop']
 enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'runcat@kolesnikov.se']
+app-picker-layout = [{'Utilities': <{'position': <0>}>, 'Containers': <{'position': <1>}>, 'Office': <{'position': <2>}>, 'Productivity': <{'position': <3>}>, 'Games': <{'position': <4>}>}]
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/mesolite/mesolite-01.xml'
