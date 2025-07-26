@@ -8,9 +8,11 @@ configurations:
     install:
       - com.github.tchx84.Flatseal
       - com.mattjakeman.ExtensionManager
+      - dev.zed.Zed
       - io.github.flattool.Warehouse
       - org.gnome.Loupe
       - org.gnome.Papers
+      - org.mozilla.firefox
       - page.tesk.Refine
     remove:
       - com.valvesoftware.Steam
