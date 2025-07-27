@@ -10,7 +10,7 @@ translate=true
 [org/gnome/desktop/app-folders/folders/Office]
 apps=['org.libreoffice.LibreOffice.startcenter.desktop', 'org.libreoffice.LibreOffice.base.desktop', 'org.libreoffice.LibreOffice.calc.desktop', 'org.libreoffice.LibreOffice.draw.desktop', 'org.libreoffice.LibreOffice.impress.desktop', 'org.libreoffice.LibreOffice.math.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.onlyoffice.desktopeditors.desktop', 'org.gnome.Papers.desktop', 'simple-scan.desktop']
 categories=['Office']
-name='Office'
+name='Office.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/GamingUtilities]
