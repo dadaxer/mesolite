@@ -1,7 +1,7 @@
 type: default-flatpaks
 configurations:
-  - notify: true
-    scope: system
+  - scope: system
+    notify: true
     repo:
       title: Flathub (system)
     # If no repo information is specified, Flathub will be used by default
@@ -9,6 +9,7 @@ configurations:
       - com.github.tchx84.Flatseal
       - com.mattjakeman.ExtensionManager
       - dev.zed.Zed
+      - io.github.dvlv.boxbuddyrs
       - io.github.flattool.Warehouse
       - org.gnome.Loupe
       - org.gnome.Papers
@@ -17,6 +18,7 @@ configurations:
     remove:
       - com.valvesoftware.Steam
   - scope: user
+    notify: true
     repo:
       title: Flathub (user)
     install:
