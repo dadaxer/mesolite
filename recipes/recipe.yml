@@ -52,6 +52,13 @@ modules:
   - from-file: flatpaks.yml
   - from-file: gnome-extensions.yml
 
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - BigBlueTerminal
+        - FiraCode
+        - GeistMono
+
   - type: gschema-overrides
     include:
       - zz1-mesolite-modifications.gschema.override
