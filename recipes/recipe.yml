@@ -32,6 +32,12 @@ modules:
       - fixes.sh
       - netbird.sh
 
+  # package installation section
+  - type: rpm-ostree
+    install:
+      - blender
+      - godot
+
   - type: dnf
     repos:
       nonfree: negativo17
@@ -42,8 +48,6 @@ modules:
         - gnome-tweaks
     install:
       packages:
-        - blender
-        - godot
         - input-remapper
         - lutris
         - mangohud
