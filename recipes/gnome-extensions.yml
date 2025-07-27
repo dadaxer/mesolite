@@ -1,6 +1,8 @@
 type: gnome-extensions
 install:
+  - App Hider
   - Bluetooth Battery Meter
+  - Compact Top Bar
   - Control monitor brightness and volume with ddcutil
   - Notification Configurator
   - RunCat
