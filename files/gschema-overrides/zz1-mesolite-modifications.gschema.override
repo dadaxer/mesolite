@@ -42,7 +42,7 @@ enable-gattbas-device=true
 disable-overview-on-startup=true
 intellihide=true
 intellihide-mode='ALL_WINDOWS'
-dock-fixed=true
+dock-fixed=false
 force-straight-corner=false
 custom-theme-shrink=true
 disable-overview-on-startup=true
@@ -89,3 +89,6 @@ restore-window-size=true
 
 [org.gnome.Ptyxis.Shortcuts]
 primary-menu=''
+
+[org.gnome.desktop.app-folders]
+folder-children=['Games', 'GamingUtilities', 'Utilities', 'Containers', 'Wine', 'Development', 'Productivity', 'Office']
