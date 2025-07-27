@@ -18,10 +18,3 @@ configurations:
       - page.tesk.Refine
     remove:
       - com.valvesoftware.Steam
-  # - scope: user
-  #   notify: true
-  #   repo:
-  #     title: Flathub (user)
-  #   install:
-  #     - hu.irl.cameractrls
-# user: {} # Also add Flathub user repo, but no user packages
