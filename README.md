@@ -14,12 +14,12 @@ Main changes are native Steam (with Mangohud) and some minor changes to fit my n
 - Steam
 
 #### Flatpak Packages
-- com.github.tchx84.Flatseal
-- com.mattjakeman.ExtensionManager
-- io.github.flattool.Warehouse
-- org.gnome.Loupe
-- org.gnome.Papers
-- page.tesk.Refine
+- Flatseal (Flatpak permissions app)
+- ExtensionManager (GNOME extension manager)
+- Warehouse (Flatpak management app)
+- Loupe (Image viewer)
+- Papers (Document viewer)
+- Refine (GNOME desktop settings)
 
 ## Installation
 
