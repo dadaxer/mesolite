@@ -10,6 +10,7 @@ configurations:
       - com.mattjakeman.ExtensionManager
       - dev.zed.Zed
       - io.github.dvlv.boxbuddyrs
+      - io.missioncenter.MissionCenter
       - io.github.flattool.Warehouse
       - org.gnome.Loupe
       - org.gnome.Papers
