@@ -9,6 +9,7 @@ Main changes are native Steam (with Mangohud) and some minor changes to fit my n
 - Blender
 - Godot
 - Input Remapper
+- Lutris
 - Mangohud
 - Steam
 
