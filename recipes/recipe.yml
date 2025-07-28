@@ -18,7 +18,7 @@ modules:
       PRETTY_NAME: Mesolite Image
       VARIANT_ID: mesolite-gx
       IMAGE_ID: mesolite-gx
-      RELEASE_TYPE: latest
+      RELEASE_TYPE: stable
 
   # - type: yafti
 
