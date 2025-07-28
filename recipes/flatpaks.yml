@@ -1,0 +1,17 @@
+type: default-flatpaks
+configurations:
+  - scope: system
+    notify: true
+    repo:
+      title: Flathub (system)
+    # If no repo information is specified, Flathub will be used by default
+    install:
+      - com.github.tchx84.Flatseal
+      - com.mattjakeman.ExtensionManager
+      - io.github.dvlv.boxbuddyrs
+      - io.missioncenter.MissionCenter
+      - io.github.flattool.Warehouse
+      - org.mozilla.firefox
+      - page.tesk.Refine
+    remove:
+      - com.valvesoftware.Steam
