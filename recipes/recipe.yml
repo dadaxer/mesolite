@@ -36,7 +36,7 @@ modules:
     scripts:
       - bling.sh
       - fixes.sh
-      - netbird.sh
+      # - netbird.sh
 
   # package installation section
   - from-file: mesolite-packages-rpmostree.yml
