@@ -39,10 +39,10 @@ modules:
       # - netbird.sh
 
   # package installation section
-  - from-file: mesolite-packages-rpmostree.yml
-  - from-file: mesolite-packages-dnf.yml
-  - from-file: mesolite-flatpaks.yml
-  - from-file: mesolite-gnome-extensions.yml
+  - from-file: gnome-extensions.yml
+  - from-file: flatpaks.yml
+  - from-file: packages-rpmostree.yml
+  - from-file: packages-dnf.yml
 
   - type: fonts
     fonts:
