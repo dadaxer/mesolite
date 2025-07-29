@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: mesolite
+# description will be included in the image's metadata
+description: This is my personal Bluefin-dx image with native Steam and some other bling.
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/bluefin-dx
+image-version: stable # latest is also supported if you want new updates ASAP
+alt-tags:
+  - stable
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - type: os-release
+    properties:
+      ID: mesolite
+      NAME: Mesolite
+      PRETTY_NAME: Mesolite Image
+      VARIANT_ID: mesolite-gx
+      IMAGE_ID: mesolite-gx
+      RELEASE_TYPE: stable
+
+  # - type: yafti
+
+  - type: files
+    files:
+      - source: system
+        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+
+  - type: gschema-overrides
+    include:
+      - zz1-mesolite-modifications.gschema.override
+
+  # scrips to run
+  - type: script
+    scripts:
+      - bling.sh
+      - fixes.sh
+      # - netbird.sh
+
+  # package installation section
+  - from-file: gnome-extensions.yml
+  - from-file: flatpaks.yml
+  - from-file: packages-rpmostree.yml
+  - from-file: packages-dnf.yml
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - BigBlueTerminal
+        - FiraCode
+        - GeistMono
+
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
