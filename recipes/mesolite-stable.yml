@@ -41,10 +41,10 @@ modules:
       # - netbird.sh
 
   # package installation section
-  - from-file: gnome-extensions.yml
-  - from-file: flatpaks.yml
-  - from-file: packages-rpmostree.yml
-  - from-file: packages-dnf.yml
+  - from-file: modules/gnome-extensions.yml
+  - from-file: modules/flatpaks.yml
+  - from-file: modules/packages-rpmostree.yml
+  - from-file: modules/packages-dnf.yml
 
   - type: fonts
     fonts:
