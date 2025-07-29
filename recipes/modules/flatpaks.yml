@@ -17,8 +17,3 @@ configurations:
       - page.tesk.Refine
     remove:
       - com.valvesoftware.Steam
-  - notify: true
-    scope: system
-    repo:
-      title: Flathub (system)
-      name: flathub
