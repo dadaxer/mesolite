@@ -1,9 +1,9 @@
 type: default-flatpaks
 configurations:
-  - scope: system
+  - scope: user
     notify: true
     repo:
-      title: Flathub (system)
+      title: Flathub (user)
     # If no repo information is specified, Flathub will be used by default
     install:
       - com.github.tchx84.Flatseal
