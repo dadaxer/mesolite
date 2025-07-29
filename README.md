@@ -6,8 +6,6 @@ Main changes are native Steam (with Mangohud) and some minor changes to fit my n
 ### Installed Packages
 
 #### Native Packages
-- Blender
-- Godot
 - Input Remapper
 - Lutris
 - Mangohud
