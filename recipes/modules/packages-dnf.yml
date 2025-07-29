@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: dnf
+repos:
+  nonfree: negativo17
+  cleanup: true
+# remove:
+#   auto-remove: true
+#   packages:
+#     - gnome-tweaks
+install:
+  packages:
+    - input-remapper
+    - lutris
+    - mangohud
+    - steam
