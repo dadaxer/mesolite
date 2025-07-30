@@ -11,10 +11,10 @@ configurations:
       - com.mattjakeman.ExtensionManager
       - io.github.dvlv.boxbuddyrs
       - io.missioncenter.MissionCenter
-      - io.github.qwersyk.Newelle
       - io.github.flattool.Warehouse
       - org.mozilla.firefox
       - org.mozilla.Thunderbird
       - page.tesk.Refine
     remove:
       - com.valvesoftware.Steam
+      - io.github.qwersyk.Newelle
