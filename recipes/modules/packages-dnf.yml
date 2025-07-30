@@ -2,10 +2,10 @@ type: dnf
 repos:
   nonfree: negativo17
   cleanup: true
-# remove:
-#   auto-remove: true
-#   packages:
-#     - gnome-tweaks
+remove:
+  auto-remove: true
+  packages:
+    - gnome-tweaks
 install:
   packages:
     - input-remapper
