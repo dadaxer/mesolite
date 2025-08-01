@@ -2,7 +2,7 @@ type: dnf
 repos:
   files:
     - netbird.repo
-  nonfree: negativo17
+  # nonfree: negativo17
   cleanup: true
 remove:
   auto-remove: true
@@ -12,7 +12,4 @@ install:
   packages:
     - gnome-software
     - input-remapper
-    - lutris
-    - mangohud
     - netbird
-    - steam
