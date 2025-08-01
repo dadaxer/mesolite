@@ -8,6 +8,7 @@ remove:
     - gnome-tweaks
 install:
   packages:
+    - gnome-software
     - input-remapper
     - lutris
     - mangohud
