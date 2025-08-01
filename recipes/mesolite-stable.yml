@@ -38,7 +38,6 @@ modules:
     scripts:
       - bling.sh
       - fixes.sh
-      # - netbird.sh
 
   # package installation section
   - from-file: modules/gnome-extensions.yml
