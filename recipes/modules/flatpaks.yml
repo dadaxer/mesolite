@@ -14,5 +14,3 @@ configurations:
       - org.mozilla.firefox
       - org.mozilla.Thunderbird
       - page.tesk.Refine
-    remove:
-      - com.valvesoftware.Steam
