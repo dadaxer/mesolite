@@ -22,6 +22,9 @@ remove-old-temp-files=true
 remove-old-trash-files=true
 old-files-age=uint32 14
 
+[org.gnome.desktop.wm.preferences]
+button-layout=':minimize,maximize,close'
+
 [org.gnome.desktop.peripherals.mouse]
 accel-profile='flat'
 
