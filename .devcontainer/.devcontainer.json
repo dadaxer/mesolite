@@ -1,0 +1,17 @@
+{
+    "name": "Mesolite",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+        // "ghcr.io/devcontainers/features/rust:1": {
+        //     "profile": "default"
+        // },
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/rchaganti/vsc-devcontainer-features/cosign:latest": {}
+    },
+    "onCreateCommand": "cargo install --locked blue-build",
+
+    "mounts": [
+        "source=${localEnv:HOME}/cloud/workspace/mesolite,target=/home/vscode/files,type=bind,consistency=cached"
+    ]
+}
