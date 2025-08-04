@@ -1,23 +1,6 @@
 # Mesolite Linux Desktop build with BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/dadaxer/mesolite/actions/workflows/build.yml/badge.svg)](https://github.com/dadaxer/mesolite/actions/workflows/build.yml)
 
 Mesolite is a [Bluefin-DX](https://projectbluefin.io/) based variant with some customisations.
-Main changes are native Steam (with Mangohud) and some minor changes to fit my needs.
-
-### Installed Packages
-
-#### Native Packages
-- Input Remapper
-- Lutris
-- Mangohud
-- Steam
-
-#### Flatpak Packages
-- Flatseal (Flatpak permissions app)
-- ExtensionManager (GNOME extension manager)
-- Warehouse (Flatpak management app)
-- Loupe (Image viewer)
-- Papers (Document viewer)
-- Refine (GNOME desktop settings)
 
 ## Installation
 
