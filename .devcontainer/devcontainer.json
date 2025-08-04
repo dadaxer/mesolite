@@ -12,6 +12,6 @@
 
     "mounts": [
         "source=${localEnv:HOME}/cloud/workspace/mesolite,target=/home/vscode/files,type=bind,consistency=cached",
-        "source=${localEnv:HOME}/.ssh/extern,target=/home/vscode/.ssh/extern,type=bind,consistency=cached"
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
     ]
 }
