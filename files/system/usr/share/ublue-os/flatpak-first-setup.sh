@@ -2,7 +2,12 @@
 
 set -oue pipefail
 
-flatpak --user remote-add --if-not-exists flathub --title "Flathub (user)" https://dl.flathub.org/repo/flathub.flatpakrepo
+if ! flatpak --user remotes | grep -q flathub; then
+        echo "Adding Flathub remote..."
+        flatpak --user remote-add flathub --title "Flathub (user)" https://dl.flathub.org/repo/flathub.flatpakrepo
+else
+        echo "Flathub remote already exists."
+fi
 
 packages=(
     com.discordapp.Discord
@@ -27,4 +32,10 @@ packages=(
     sh.loft.devpod
 )
 
+echo "Installing Flatpak packages..."
 flatpak --user install -y "${packages[@]}"
+
+echo "Disabling the flatpak-first-setup.service..."
+systemctl --user disable flatpak-first-setup.service
+
+echo "Flatpak setup completed successfully."
