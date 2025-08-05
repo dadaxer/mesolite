@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/share/ublue-os/flatpak-first-setup.sh
+ExecStart=sh /usr/share/ublue-os/flatpak-first-setup.sh
 
 [Install]
 WantedBy=multi-user.target
