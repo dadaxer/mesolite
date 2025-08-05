@@ -29,9 +29,9 @@ modules:
           - source: system
             destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-    - type: gschema-overrides
-      include:
-          - zz1-mesolite-modifications.gschema.override
+    # - type: gschema-overrides
+    #   include:
+    #       - zz1-mesolite-modifications.gschema.override
 
     # scrips to run
     - type: script
