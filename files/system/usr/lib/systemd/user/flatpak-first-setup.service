@@ -5,4 +5,4 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=sh /usr/share/ublue-os/flatpak-first-setup.sh
+ExecStart=/usr/share/ublue-os/flatpak-first-setup.sh
