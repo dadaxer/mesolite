@@ -51,5 +51,7 @@ modules:
               - BigBlueTerminal
               - FiraCode
               - GeistMono
+              - IosevkaTerm
+              - IosevkaTermSlab
 
     - type: signing # this sets up the proper policy & signing files for signed images to work fully
