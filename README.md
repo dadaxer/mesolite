@@ -1,6 +1,6 @@
 # Mesolite Linux Desktop build with BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/dadaxer/mesolite/actions/workflows/build.yml/badge.svg)](https://github.com/dadaxer/mesolite/actions/workflows/build.yml)
 
-Mesolite is a [Bluefin-DX](https://projectbluefin.io/) variant with some customizations, such as Steam and MangoHud as main examples.
+### Mesolite is a [Bluefin-DX](https://projectbluefin.io/) variant with some customizations, such as Steam and MangoHud as main examples.
 
 ## Installation
 
