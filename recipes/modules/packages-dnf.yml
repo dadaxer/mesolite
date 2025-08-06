@@ -10,6 +10,7 @@ remove:
         - gnome-tweaks
 install:
     packages:
-        # - gnome-software
         - input-remapper
         - netbird
+        - steam
+        - mangohud
