@@ -10,6 +10,8 @@ remove:
         - gnome-tweaks
 install:
     packages:
+        - blender
+        - godot
         - input-remapper
         - mangohud
         - netbird
