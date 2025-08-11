@@ -42,7 +42,7 @@ modules:
 
     # package installation section
     - from-file: modules/gnome-extensions.yml
-    - from-file: modules/flatpaks.yml
+    # - from-file: modules/flatpaks.yml
     - from-file: modules/packages-dnf.yml
     - from-file: modules/systemd.yml
 
