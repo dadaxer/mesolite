@@ -1,16 +1,16 @@
 type: default-flatpaks
 configurations:
-  - notify: true
-    scope: user
-    repo:
-      title: Flathub (user)
-      name: flathub
-    install:
-      - com.github.tchx84.Flatseal
-      - com.mattjakeman.ExtensionManager
-      - io.github.dvlv.boxbuddyrs
-      - io.missioncenter.MissionCenter
-      - io.github.flattool.Warehouse
-      - org.mozilla.firefox
-      - org.mozilla.Thunderbird
-      - page.tesk.Refine
+    - notify: false
+      scope: user
+      repo:
+          title: Flathub (user)
+          name: flathub
+      install:
+          - com.github.tchx84.Flatseal
+          - com.mattjakeman.ExtensionManager
+          - io.github.dvlv.boxbuddyrs
+          - io.missioncenter.MissionCenter
+          - io.github.flattool.Warehouse
+          - org.mozilla.firefox
+          - org.mozilla.Thunderbird
+          - page.tesk.Refine
