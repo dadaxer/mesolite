@@ -30,10 +30,6 @@ modules:
           - source: system
             destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-    # - type: gschema-overrides
-    #   include:
-    #       - zz1-mesolite-modifications.gschema.override
-
     # scrips to run
     - type: script
       scripts:
@@ -54,5 +50,9 @@ modules:
               - GeistMono
               - VictorMono
               - Mononoki
+
+    - type: gschema-overrides
+      include:
+          - zz1-mesolite-modifications.gschema.override
 
     - type: signing # this sets up the proper policy & signing files for signed images to work fully
