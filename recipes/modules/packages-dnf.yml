@@ -13,6 +13,4 @@ install:
         - blender
         - godot
         - input-remapper
-        - mangohud
         - netbird
-        - steam
