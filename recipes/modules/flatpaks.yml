@@ -1,16 +1,16 @@
 type: default-flatpaks
 configurations:
-    - notify: false
-      scope: user
+    - notify: true
+      scope: system
       repo:
-          title: Flathub (user)
+          title: Flathub (system)
           name: flathub
       install:
           - com.github.tchx84.Flatseal
           - com.mattjakeman.ExtensionManager
-          - io.github.dvlv.boxbuddyrs
+          - com.ranfdev.DistroShelf
           - io.missioncenter.MissionCenter
           - io.github.flattool.Warehouse
+          - org.altlinux.Tuner
           - org.mozilla.firefox
           - org.mozilla.Thunderbird
-          - page.tesk.Refine
