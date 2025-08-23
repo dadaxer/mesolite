@@ -19,8 +19,8 @@ modules:
           ID: mesolite
           NAME: Mesolite
           PRETTY_NAME: Mesolite Image
-          VARIANT_ID: mesolite-gx
-          IMAGE_ID: mesolite-gx
+          VARIANT_ID: mesolite-dx
+          IMAGE_ID: mesolite-dx
           RELEASE_TYPE: stable
 
     # - type: yafti
@@ -38,7 +38,7 @@ modules:
 
     # package installation section
     - from-file: modules/gnome-extensions.yml
-    # - from-file: modules/flatpaks.yml
+    - from-file: modules/flatpaks.yml
     - from-file: modules/packages-dnf.yml
     - from-file: modules/systemd.yml
 
