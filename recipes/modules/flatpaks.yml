@@ -11,7 +11,7 @@ configurations:
           - com.ranfdev.DistroShelf
           - io.missioncenter.MissionCenter
           - io.github.flattool.Warehouse
-          # - io.github.kolunmi.Bazaar
+          - io.github.kolunmi.Bazaar
           - org.altlinux.Tuner
           - org.mozilla.firefox
           - org.mozilla.Thunderbird
