@@ -36,14 +36,6 @@ favorite-apps = ['org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop
 enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'Bluetooth-Battery-Meter@maniacx.github.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'runcat@kolesnikov.se']
 app-picker-layout = [{'Utilities': <{'position': <0>}>, 'Containers': <{'position': <1>}>, 'Development': <{'position': <2>}>, 'Productivity': <{'position': <3>}>, 'Games': <{'position': <4>}>, 'Office': <{'position': <5>}>}]
 
-[org.gnome.shell.extensions.Bluetooth-Battery-Meter]
-enable-battery-indicator=true
-enable-battery-level-icon=true
-enable-battery-level-text=true
-level-indicator-color=1
-enable-enhanced-device-mode=true
-enable-gattbas-device=true
-
 [org.gnome.shell.extensions.dash-to-dock]
 disable-overview-on-startup=true
 intellihide=true
