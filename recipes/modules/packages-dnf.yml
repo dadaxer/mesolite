@@ -8,7 +8,7 @@ remove:
     auto-remove: true
     packages:
         # - bazaar
-        # - code
+        - code
         - gnome-tweaks
 install:
     packages:
