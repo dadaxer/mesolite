@@ -4,6 +4,7 @@ install:
     - Bluetooth Battery Meter
     - Compact Top Bar
     - Control monitor brightness and volume with ddcutil
+    - Just Perfection
     - Notification Configurator
     - RunCat
     - Tiling Shell
