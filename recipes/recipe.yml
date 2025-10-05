@@ -23,8 +23,6 @@ modules:
           IMAGE_ID: mesolite-dx
           RELEASE_TYPE: stable
 
-    # - type: yafti
-
     - type: files
       files:
           - source: system
