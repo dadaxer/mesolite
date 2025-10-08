@@ -16,4 +16,3 @@ install:
         - godot
         - input-remapper
         - netbird
-        - steam
