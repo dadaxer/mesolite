@@ -2,9 +2,9 @@
 
 set -oue pipefail
 
-if ! flatpak --user remotes | grep -q flathub; then
+if ! flatpak --system remotes | grep -q flathub; then
         echo "Adding Flathub remote..."
-        flatpak --user remote-add flathub --title "Flathub (user)" https://dl.flathub.org/repo/flathub.flatpakrepo
+        flatpak --system remote-add flathub --title "Flathub (system)" https://dl.flathub.org/repo/flathub.flatpakrepo
 else
         echo "Flathub remote already exists."
 fi
@@ -17,7 +17,6 @@ packages=(
     com.mattjakeman.ExtensionManager
     com.valvesoftware.Steam
     com.ranfdev.DistroShelf
-    io.github.Faugus.faugus-launcher
     io.github.flattool.Warehouse
     io.missioncenter.MissionCenter
     io.podman_desktop.PodmanDesktop
@@ -28,14 +27,14 @@ packages=(
     org.gnome.gThumb
     org.mozilla.firefox
     org.mozilla.Thunderbird
-    page.tesk.Refine
+    org.altlinux.Tuner
     sh.loft.devpod
 )
 
 echo "Installing Flatpak packages..."
-flatpak --user install -y "${packages[@]}"
+flatpak --system install -y "${packages[@]}"
 
 echo "Disabling the flatpak-first-setup.service..."
-systemctl --user disable flatpak-first-setup.service
+systemctl --system disable flatpak-first-setup.service
 
 echo "Flatpak setup completed successfully."
