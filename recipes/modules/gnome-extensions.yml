@@ -5,7 +5,7 @@ install:
     - Compact Top Bar
     - Control monitor brightness and volume with ddcutil
     - Just Perfection
-    - Notification Configurator
+    # - Notification Configurator
     - RunCat
     - Tiling Shell
 uninstall:
