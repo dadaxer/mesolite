@@ -21,10 +21,11 @@ packages=(
     io.missioncenter.MissionCenter
     io.podman_desktop.PodmanDesktop
     org.gnome.World.PikaBackup
-    org.gnome.Papers
     org.gnome.baobab
     org.gnome.clocks
     org.gnome.gThumb
+    org.gnome.Papers
+    org.gnome.TextEditor
     org.mozilla.firefox
     org.mozilla.Thunderbird
     org.altlinux.Tuner
