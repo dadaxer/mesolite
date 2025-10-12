@@ -1,6 +1,6 @@
 # vim: set ft=make :
 
-alias patch-gmod := fix-gmod
+# alias patch-gmod := fix-gmod
 
 # Toggle Bluetooth headset profile mode. If enabled, mic will be disabled on the Bluetooth device preventing the switch to headset profile, which has poor audio quality. Disable to restore mic functionality.
 toggle-bt-mic:
