@@ -11,24 +11,24 @@ fi
 
 packages=(
     com.discordapp.Discord
-    com.github.tchx84.Flatseal
     com.github.rafostar.Clapper
+    com.github.tchx84.Flatseal
     com.heroicgameslauncher.hgl
     com.mattjakeman.ExtensionManager
-    com.valvesoftware.Steam
     com.ranfdev.DistroShelf
+    com.valvesoftware.Steam
     io.github.flattool.Warehouse
     io.missioncenter.MissionCenter
     io.podman_desktop.PodmanDesktop
-    org.gnome.World.PikaBackup
+    org.altlinux.Tuner
     org.gnome.baobab
     org.gnome.clocks
     org.gnome.gThumb
     org.gnome.Papers
     org.gnome.TextEditor
+    org.gnome.World.PikaBackup
     org.mozilla.firefox
     org.mozilla.Thunderbird
-    org.altlinux.Tuner
     sh.loft.devpod
 )
 
