@@ -1,6 +1,6 @@
 {
     "name": "Mesolite",
-    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
     "features": {
         "ghcr.io/devcontainers/features/rust:1": {
             "profile": "minimal"
