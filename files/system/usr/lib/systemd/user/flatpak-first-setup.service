@@ -6,7 +6,7 @@ StartLimitBurst=4
 
 [Service]
 Type=oneshot
-ExecStart=/usr/share/ublue-os/flatpak-first-setup.sh
+ExecStart=/usr/share/ublue-os/firstboot/flatpak-first-setup.sh
 Restart=on-failure
 RestartSec=1
 
