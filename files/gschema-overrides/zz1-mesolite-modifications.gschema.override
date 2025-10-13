@@ -9,8 +9,8 @@ accent-color="orange"
 color-scheme='prefer-dark'
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/mesolite/mesolite-02.xml'
-picture-uri-dark='file:///usr/share/backgrounds/mesolite/mesolite-02.xml'
+picture-uri='file:///usr/share/backgrounds/mesolite/cosy-tree.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/mesolite/cosy-tree.jxl'
 picture-options='zoom'
 primary-color='000000'
 secondary-color='FFFFFF'
