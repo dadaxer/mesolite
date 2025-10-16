@@ -7,3 +7,5 @@ if [ -d "/usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gc
   echo "Removing 'Window List' extension..."
   rm -rf /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com || { echo "Failed to remove 'Window List' extension"; exit 1; }
 fi
+
+rm /usr/share/thumbnailers/gsf-office.thumbnailer
