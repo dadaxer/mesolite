@@ -34,6 +34,13 @@ modules:
           - source: system
             destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+    - type: fonts
+      fonts:
+          nerd-fonts:
+              - BigBlueTerminal
+              - FiraCode
+              - GeistMono
+
     # package installation section
     - from-file: modules/gnome-extensions.yml
     - from-file: modules/flatpaks.yml
