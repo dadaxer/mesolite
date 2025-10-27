@@ -41,7 +41,7 @@ modules:
               - FiraCode
               - GeistMono
 
-    # package installation section
+    # modules section
     - from-file: modules/gnome-extensions.yml
     # - from-file: modules/flatpaks.yml
     # - from-file: modules/packages-dnf.yml
