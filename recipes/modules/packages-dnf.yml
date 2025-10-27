@@ -1,15 +1,6 @@
 type: dnf
-repos:
-    files:
-        - netbird.repo
-    # nonfree: negativo17
-    cleanup: true
 remove:
     auto-remove: true
     packages:
         - code
         - gnome-tweaks
-install:
-    packages:
-        - input-remapper
-        - netbird
