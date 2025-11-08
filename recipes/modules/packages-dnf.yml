@@ -2,7 +2,7 @@ type: dnf
 repos:
     cleanup: true
     copr:
-        - lizardbyte/beta
+        - lizardbyte/stable
 #         # files:
 #         #     - netbird.repo
 #     nonfree: negativo17
