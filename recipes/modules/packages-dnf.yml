@@ -2,12 +2,13 @@ type: dnf
 repos:
     copr:
         - lizardbyte/beta
-    #     # files:
-    #     #     - netbird.repo
-    # nonfree: negativo17
-    cleanup: true
+#         # files:
+#         #     - netbird.repo
+#     nonfree: negativo17
+#     cleanup: true
 install:
-    - sunshine
+    packages:
+        - sunshine
 remove:
     auto-remove: true
     packages:
