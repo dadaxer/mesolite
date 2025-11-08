@@ -5,7 +5,8 @@ repos:
     nonfree: negativo17
     cleanup: true
 install:
-    - sunshine
+    packages:
+        - sunshine
 remove:
     auto-remove: true
     packages:
