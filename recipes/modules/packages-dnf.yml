@@ -9,7 +9,6 @@ repos:
 
 install:
     packages:
-        - sunshine
         - steam
         - mangohud
 remove:
