@@ -1,9 +1,11 @@
 type: dnf
-# repos:
-#     # files:
-#     #     - netbird.repo
-#     nonfree: negativo17
-#     cleanup: true
+repos:
+    #     # files:
+    #     #     - netbird.repo
+    nonfree: negativo17
+    cleanup: true
+install:
+    - sunshine
 remove:
     auto-remove: true
     packages:
