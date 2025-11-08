@@ -3,13 +3,15 @@ repos:
     cleanup: true
     copr:
         - lizardbyte/stable
-#         # files:
-#         #     - netbird.repo
-#     nonfree: negativo17
+    # files:
+    #    - netbird.repo
+    nonfree: negativo17
 
 install:
     packages:
         - sunshine
+        - steam
+        - mangohud
 remove:
     auto-remove: true
     packages:
