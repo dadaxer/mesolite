@@ -1,16 +1,11 @@
 type: dnf
-repos:
-    cleanup: true
-    copr:
-        - lizardbyte/stable
-    # files:
-    #    - netbird.repo
-    nonfree: negativo17
-
-install:
-    packages:
-        - steam
-        - mangohud
+# repos:
+#     cleanup: true
+#     nonfree: negativo17
+# install:
+#     packages:
+#         - steam
+#         - mangohud
 remove:
     auto-remove: true
     packages:
