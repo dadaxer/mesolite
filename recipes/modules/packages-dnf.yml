@@ -3,13 +3,10 @@ repos:
     cleanup: true
     files:
         - https://repository.mullvad.net/rpm/stable/mullvad.repo
-
     # nonfree: negativo17
 install:
     packages:
         - mullvad-vpn
-          # - steam
-          # - mangohud
 remove:
     auto-remove: true
     packages:
