@@ -1,0 +1,61 @@
+name: Check Bluefin Image
+
+on:
+    schedule:
+        - cron: "42 */12 * * *" # check every 12 hours
+    workflow_dispatch:
+
+jobs:
+    check:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v6
+
+            - name: Install dependencies
+              run: sudo apt-get update && sudo apt-get install -y
+
+            - name: Fetch current Bluefin digest
+              id: digest
+              run: |
+                  DIGEST=$(skopeo inspect docker://ghcr.io/ublue-os/bluefin-dx:stable | jq -r '.Digest')
+                  echo "digest=$DIGEST" >> $GITHUB_OUTPUT
+
+            - name: Load last known digest
+              id: last
+              run: |
+                  if [ -f .bluefin_digest ]; then
+                    echo "last=$(cat .bluefin_digest)" >> $GITHUB_OUTPUT
+                  else
+                    echo "last=none" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Compare digests
+              id: compare
+              run: |
+                  if [ "${{ steps.digest.outputs.digest }}" != "${{ steps.last.outputs.last }}" ]; then
+                    echo "updated=true" >> $GITHUB_OUTPUT
+                  else
+                    echo "updated=false" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Save new digest
+              if: steps.compare.outputs.updated == 'true'
+              run: |
+                  echo "${{ steps.digest.outputs.digest }}" > .bluefin_digest
+                  git config user.name "github-actions"
+                  git config user.email "github-actions@github.com"
+                  git add .bluefin_digest
+                  git commit -m "Update Bluefin digest"
+                  git push
+
+            - name: Trigger bluebuild workflow
+              if: steps.compare.outputs.updated == 'true'
+              uses: peter-evans/repository-dispatch@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  repository: ${{ github.repository }}
+                  event-type: bluefin-updated
