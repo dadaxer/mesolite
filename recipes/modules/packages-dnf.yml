@@ -11,4 +11,3 @@ remove:
     auto-remove: true
     packages:
         - code
-        - gnome-tweaks
