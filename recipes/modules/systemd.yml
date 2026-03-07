@@ -2,4 +2,3 @@ type: systemd
 user:
     enabled:
         - distrobox-user-update.timer
-        - flatpak-first-setup.service
