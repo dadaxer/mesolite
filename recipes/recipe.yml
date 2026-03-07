@@ -14,14 +14,14 @@ alt-tags:
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-    - type: os-release
-      properties:
-          ID: mesolite
-          NAME: Mesolite
-          PRETTY_NAME: Mesolite Image
-          VARIANT_ID: mesolite-dx
-          IMAGE_ID: mesolite-dx
-          RELEASE_TYPE: stable
+    # - type: os-release
+    #   properties:
+    #       ID: mesolite
+    #       NAME: Mesolite
+    #       PRETTY_NAME: Mesolite Image
+    #       VARIANT_ID: mesolite-dx
+    #       IMAGE_ID: mesolite-dx
+    #       RELEASE_TYPE: stable
 
     # scrips to run
     - type: script
@@ -43,12 +43,6 @@ modules:
 
     # modules section
     - from-file: modules/gnome-extensions.yml
-    # - from-file: modules/flatpaks.yml
     - from-file: modules/packages-dnf.yml
-    # - from-file: modules/systemd.yml
-
-    # - type: gschema-overrides
-    #   include:
-    #       - zz1-mesolite-modifications.gschema.override
 
     - type: signing # this sets up the proper policy & signing files for signed images to work fully
