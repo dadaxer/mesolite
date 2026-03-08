@@ -2,7 +2,7 @@ name: Check Bluefin Image
 
 on:
     schedule:
-        - cron: "42 */12 * * *" # check every 12 hours
+        - cron: "39 */12 * * *" # check every 12 hours
     workflow_dispatch:
 
 jobs:
