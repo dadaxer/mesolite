@@ -15,9 +15,6 @@ jobs:
             - name: Checkout repo
               uses: actions/checkout@v6
 
-            - name: Install dependencies
-              run: sudo apt-get update && sudo apt-get install -y
-
             - name: Fetch current Bluefin digest
               id: digest
               run: |
